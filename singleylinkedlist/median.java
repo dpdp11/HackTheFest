@@ -32,14 +32,11 @@ public class median {
 			if (lo > hi) {
 				return null;
 			}
-
 			int mid = lo + (hi - lo) / 2;
 			Node parent = new Node(arr[mid], null, null);
 			parent.left = makeBST(arr, lo, mid - 1);
 			parent.right = makeBST(arr, mid + 1, hi);
-
 			return parent;
-
 		}
 
 		private Node inputfromstring(String s, Node parent) {
