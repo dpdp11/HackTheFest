@@ -1,2 +1,3 @@
 # HackTheFest
-Put your all efforts and make this repo world famous
+
+Put in all efforts & make this repository world famous.
