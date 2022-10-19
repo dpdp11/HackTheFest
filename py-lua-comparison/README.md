@@ -12,7 +12,6 @@ python3 beginners/printglobals.py
 ```
 
 ```bash
-# assuming you are in the py-lua-comparison folder (cd <repo>/py-lua-comparison)
 lua beginners/printglobals.lua
 ```
 
